@@ -14,12 +14,12 @@ int main() {
     scanf(" %c", &operator);
 
     switch(operator){
-        case +:
+        case '+':
         result= num1 + num2;
         printf("Result: %.2f + %.2f = %.2f\n", num1, num2, result);
         break;
 
-        case -:
+        case '-':
         result= num1 - num2;
         printf("Result: %.2f - %.2f = %.2f\n", num1, num2, result);
         break;
